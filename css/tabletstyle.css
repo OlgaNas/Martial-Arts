@@ -1,0 +1,32 @@
+/*Begin tablet.*/
+@media screen and (min-width: 640px) {
+
+    nav ul li {
+        padding: 0.7em;
+        border-top: solid 0.2em black;
+        border-bottom: solid 0.2em black;
+
+        display: inline-block;
+        /*lists items horizontally and allow them to stretch*/
+        border-radius: 1em;
+        min-width: 10%;
+        box-shadow: 0.5em 0.5em 0.5em grey;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    main div .center {
+        padding: 0.5%;
+        width: 66%;
+        border-right: 0.3em solid black;
+
+    }
+
+    footer {
+        box-shadow: 0.5em 0.5em 0.5em black;
+    }
+}
+
+/*End tablet.*/
